@@ -25,4 +25,10 @@ contract StatefulFuzzCatchesTest is StdInvariant, Test {
     function statefulFuzz_testMathDoesntReturnZero() public view {
         assert(sfc.storedValue() != 0);
     }
+
+
+
 }
+
+
+

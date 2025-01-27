@@ -19,3 +19,5 @@ contract StatefulFuzzCatches {
         myValue = newValue;
     }
 }
+
+
